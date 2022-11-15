@@ -44,6 +44,7 @@ include("function.php")
 		}
 		.search{
 			margin-top: 38px;
+			border-radius: 50px;
 		}
 		.header-bottom-right{
 			margin-top: 10px;
@@ -70,7 +71,7 @@ include("function.php")
 					<form action="search.php" method="POST">
 						<div class="search" style="background-color: #FBFBFC">
 							<input type="text" name="name" required>
-							<input type="submit" value="Tìm kiếm" name="search">
+							<input type="submit" value="Search" name="search">
 
 						</div>
 					</form>
