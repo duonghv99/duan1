@@ -86,6 +86,7 @@ include('../function.php');
 
 		.search{
 			margin-top: 38px;
+			border-radius: 50px;
 		}
 		.header-bottom-right{
 			margin-top: 10px;
@@ -111,7 +112,7 @@ include('../function.php');
 					<form action="" method="POST">
 						<div class="search">
 							<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required>
-							<input type="submit" value="Tìm kiếm">
+							<input type="submit" value="Search">
 
 						</div>
 					</form>
